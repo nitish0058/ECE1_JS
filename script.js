@@ -32,13 +32,24 @@
 // console.log(num);
 // console.log(typeof num);
 
-const sym1 = Symbol(4);
-const sym2 = Symbol(4);
-
-console.log(sym1);
-console.log(sym2);
-if(sym1 === sym2){
-    console.log("sym1 and sym2 are equal");
-} else {
-    console.log("sym1 and sym2 are not equal");
-}
+// const sym1 = Symbol(4);
+// const sym2 = Symbol(4);
+// console.log(sym1);
+// console.log(sym2);
+// if(sym1 === sym2){
+//     console.log("sym1 and sym2 are equal");
+// } else {
+//     console.log("sym1 and sym2 are not equal");
+// }
+var a = 10;
+var b = 20;
+var c = a + b;//addition
+console.log(c);
+var d= a - b;//subtraction
+console.log(d);
+var e = a * b;  //multiplication
+console.log(e);
+var f = a / b;//division
+console.log(f);
+var g = a % b;//modulus
+console.log(g);
