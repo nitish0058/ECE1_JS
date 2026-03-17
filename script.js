@@ -63,10 +63,17 @@
 // document.write("loop ended: "+ "<br>");
 
 
-let count=0;
-document.write("starting loop: "+ "<br>");  
-while(count<=10){
-    document.write("current count: "+count + "<br>");
-    count++;
-}   
-document.write("loop ended: "+ "<br>");
+// let count=0;
+// document.write("starting loop: "+ "<br>");  
+// while(count<=10){
+//     document.write("current count: "+count + "<br>");
+//     count++;
+// }   
+// document.write("loop ended: "+ "<br>");
+
+var age = 25;
+if(age >= 18){
+    console.log("you are eligible to vote");    
+} else {
+    console.log("you are not eligible to vote");
+}
