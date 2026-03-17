@@ -55,9 +55,18 @@
 // console.log(g);
 
 
-let count;
-document.write("starting loop: "+ "<br>");
-for(count=0; count<=10; count++){
+// let count;
+// document.write("starting loop: "+ "<br>");
+// for(count=0; count<=10; count++){
+//     document.write("current count: "+count + "<br>");
+// }
+// document.write("loop ended: "+ "<br>");
+
+
+let count=0;
+document.write("starting loop: "+ "<br>");  
+while(count<=10){
     document.write("current count: "+count + "<br>");
-}
+    count++;
+}   
 document.write("loop ended: "+ "<br>");
