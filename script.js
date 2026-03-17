@@ -71,9 +71,34 @@
 // }   
 // document.write("loop ended: "+ "<br>");
 
-var age = 25;
-if(age >= 18){
-    console.log("you are eligible to vote");    
-} else {
-    console.log("you are not eligible to vote");
+// var age = 25;
+// if(age >= 18){
+//     console.log("you are eligible to vote");    
+// } else {
+//     console.log("you are not eligible to vote");
+// }
+
+let grade='A';
+document.write("your grade is: "+grade + "<br>");
+switch(grade){
+    case 'A':
+        document.write("excellent");
+        break;  
+    case 'B':
+        document.write("good");
+        break;
+    case 'C':
+        document.write("average");
+        break;
+    case 'D':
+        document.write("below average");
+        break;  
+    case 'F':
+        document.write("fail");
+        break;
+    default:
+        document.write("invalid grade");
 }
+
+
+
