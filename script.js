@@ -41,15 +41,23 @@
 // } else {
 //     console.log("sym1 and sym2 are not equal");
 // }
-var a = 10;
-var b = 20;
-var c = a + b;//addition
-console.log(c);
-var d= a - b;//subtraction
-console.log(d);
-var e = a * b;  //multiplication
-console.log(e);
-var f = a / b;//division
-console.log(f);
-var g = a % b;//modulus
-console.log(g);
+// var a = 10;
+// var b = 20;
+// var c = a + b;//addition
+// console.log(c);
+// var d= a - b;//subtraction
+// console.log(d);
+// var e = a * b;  //multiplication
+// console.log(e);
+// var f = a / b;//division
+// console.log(f);
+// var g = a % b;//modulus
+// console.log(g);
+
+
+let count;
+document.write("starting loop: "+ "<br>");
+for(count=0; count<=10; count++){
+    document.write("current count: "+count + "<br>");
+}
+document.write("loop ended: "+ "<br>");
