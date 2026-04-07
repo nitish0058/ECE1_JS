@@ -13,23 +13,31 @@ function calculateResult(){
     if(average>=90)
     {
         grade="A++";
+        RESULT="PASS";
     }   
     else if(average>=75)
     {
         grade="A";
+        RESULT="PASS";
+
     }
     else if(average>=40)
     {
         grade="B";
+        RESULT="PASS";
     }
     else if(average>=33)
     {
         grade="C";
+        RESULT="PASS";
+
     }       
     else
     {
         grade="FAIL";
+        RESULT="FAIL";
+
     }
-    let r=document.getElementById("result").innerHTML="total marks: "+total+"<br/>"+"The average is: "+average+"<br/>"+"The grade is: "+grade+"<br/>";
+    let r=document.getElementById("result").innerHTML="Total marks: "+total+"<br/>"+"The average marks is: "+average+"<br/>"+"The grade is: "+grade+"<br/>"+"Result: "+RESULT;
 
 }
