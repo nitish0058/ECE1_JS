@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+                background-color: #f0f0f0;
+        }
+
+        .container {
+            margin-top: 50px;
+            border: 2px solid #16f7ef;
+            padding: 20px;
+                border-radius: 10px;
+                display: inline-block;
+        }
+
+        button {
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            background-color: #259894;
+        }
+
+        #para {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1 id="heading">Welcome to JavaScript</h1>
+
+
+
+    <input type="text" id="inputText" placeholder="Enter new heading text">
+
+    <br><br>
+
+    <button id="changeText">Change Heading</button>
+    <button id="bgColor">Change Background</button>
+    <button id="increaseFont">Increase Font Size</button>
+    <button id="togglePara">Show/Hide Paragraph</button>
+    <p id="para">This is a sample paragraph to demonstrate DOM manipulation. 
+        Javascript is awesome!</p>
+</div>
+
+<script src="index3.js"></script>
+
+</body>
+</html>
